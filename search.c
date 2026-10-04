@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "search.h"
 
 /* ===== 공통 트리 함수 ===== */
@@ -179,6 +180,31 @@ static void printValues(const int values[], int count)
     }
 }
 
+/* 천 단위 구분 쉼표를 넣어 문자열로 변환한다. (%'ld는 Windows에서 지원이 불확실하다) */
+static void formatWithCommas(long value, char *out)
+{
+    char digits[32];
+    int len, pos = 0;
+
+    snprintf(digits, sizeof(digits), "%ld", value < 0 ? -value : value);
+    len = (int)strlen(digits);
+    if (value < 0)
+        out[pos++] = '-';
+    for (int i = 0; i < len; i++) {
+        out[pos++] = digits[i];
+        if ((len - i - 1) % 3 == 0 && i != len - 1)
+            out[pos++] = ',';
+    }
+    out[pos] = '\0';
+}
+
+static void printConstruction(const char *name, long count)
+{
+    char buf[32];
+    formatWithCommas(count, buf);
+    printf("%s : %5s\n", name, buf);
+}
+
 static void printSearchResult(const char *name, int found, long comparisons)
 {
     printf("  %-17s Result: %-9s Comparisons: %ld\n",
@@ -187,8 +213,10 @@ static void printSearchResult(const char *name, int found, long comparisons)
 
 static void printSearchSummary(const char *name, long total)
 {
+    char buf[32];
+    formatWithCommas(total, buf);
     printf("%s\n", name);
-    printf("  Total comparisons   : %ld\n", total);
+    printf("  Total comparisons   : %s\n", buf);
     printf("  Average comparisons : %.2f\n", (double)total / SEARCH_COUNT);
 }
 
@@ -213,9 +241,9 @@ void runExperiment(void)
     printf("\nStored values : %d\n", length);
     printf("Duplicates skipped : %d\n", INSERT_COUNT - length);
     printf("\nConstruction\n");
-    printf("Array comparisons : %ld\n", arrayBuild);
-    printf("BST comparisons   : %ld\n", bstBuild);
-    printf("AVL comparisons   : %ld\n", avlBuild);
+    printConstruction("Array comparisons", arrayBuild);
+    printConstruction("BST comparisons  ", bstBuild);
+    printConstruction("AVL comparisons  ", avlBuild);
     printf("\nStructure\n");
     printf("Array length : %d\n", length);
     printf("BST height   : %d\n", bstHeight(bst));
