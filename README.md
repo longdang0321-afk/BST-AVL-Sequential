@@ -8,7 +8,7 @@
 | `search.h` | 공통 상수, Node 구조체 및 함수 선언 |
 | `search.c` | 배열, BST, AVL 구현과 비교 횟수 측정 및 결과 출력 |
 | `README.md` | 측정 결과 및 성능 분석 |
-| `execution_result.txt` | 시드 1791077274로 실행한 전체 결과 |
+| `output_result.txt` | 시드 1791077274로 실행한 전체 결과 |
 
 아래 내용은 시드 1791077274의 실제 실행 결과를 바탕으로 작성하였다. 전체 출력은 `execution_result.txt`에 기록하였다.
 
