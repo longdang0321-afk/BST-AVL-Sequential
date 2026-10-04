@@ -17,9 +17,9 @@ Stored values : 96
 Duplicates skipped : 4
 
 Construction
-Array comparisons : 4782
-BST comparisons   : 1242
-AVL comparisons   : 1052
+Array comparisons : 4,782
+BST comparisons   : 1,242
+AVL comparisons   : 1,052
 
 Structure
 Array length : 96
@@ -285,7 +285,7 @@ Search Key : 639
 
 Searches : 50
 Sequential Search
-  Total comparisons   : 4563
+  Total comparisons   : 4,563
   Average comparisons : 91.26
 BST Search
   Total comparisons   : 821
