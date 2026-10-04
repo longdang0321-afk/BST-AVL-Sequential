@@ -1,0 +1,295 @@
+Seed : 1791077274
+Counting rule: each executed key == data or key < data counts once.
+
+Generated values (100):
+ 367  765  708   20  254  750  498  971  769  544
+ 108   95  892  692  587  261  857  601  502  650
+ 682  653  603  652  230  650  146  495   87  435
+ 189   55  234  579  767  810  523   77  169  186
+ 740  948  484  203  764  157  573  919  596  318
+ 244  841  126  987   64  632  858  405  671  540
+   3  152  413  492  895  807  941  493   78  577
+ 781  771  862  450  549  813  252  830  705  247
+ 459  915  644  757  984  106  568  252  325  596
+ 705  878  514  134  965   41  715  270  327  483
+
+Stored values : 96
+Duplicates skipped : 4
+
+Construction
+Array comparisons : 4782
+BST comparisons   : 1242
+AVL comparisons   : 1052
+
+Structure
+Array length : 96
+BST height   : 12
+AVL height   : 8
+
+Search keys (50):
+ 600  721  688  431  930  324  878  235  395   47
+ 478  949  854  621  667  738  891  341  932  389
+ 570  120  530  380  983  737  760  881  613  398
+ 234  839  156  752  288  624  495  566  722  636
+ 885  652  489  676  944  862  960  768   83  639
+
+Search Key : 600
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 18
+  AVL Search        Result: Not Found Comparisons: 12
+
+Search Key : 721
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 12
+  AVL Search        Result: Not Found Comparisons: 16
+
+Search Key : 688
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 20
+  AVL Search        Result: Not Found Comparisons: 12
+
+Search Key : 431
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 16
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 930
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 16
+  AVL Search        Result: Not Found Comparisons: 12
+
+Search Key : 324
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 12
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 878
+  Sequential Search Result: Found     Comparisons: 88
+  BST Search        Result: Found     Comparisons: 17
+  AVL Search        Result: Found     Comparisons: 13
+
+Search Key : 235
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 14
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 395
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 14
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 47
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 16
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 478
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 20
+  AVL Search        Result: Not Found Comparisons: 16
+
+Search Key : 949
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 14
+  AVL Search        Result: Not Found Comparisons: 12
+
+Search Key : 854
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 16
+  AVL Search        Result: Not Found Comparisons: 12
+
+Search Key : 621
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 22
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 667
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 24
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 738
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 12
+  AVL Search        Result: Not Found Comparisons: 16
+
+Search Key : 891
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 18
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 341
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 14
+  AVL Search        Result: Not Found Comparisons: 16
+
+Search Key : 932
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 16
+  AVL Search        Result: Not Found Comparisons: 12
+
+Search Key : 389
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 14
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 570
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 22
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 120
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 14
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 530
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 16
+  AVL Search        Result: Not Found Comparisons: 12
+
+Search Key : 380
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 14
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 983
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 10
+  AVL Search        Result: Not Found Comparisons: 10
+
+Search Key : 737
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 12
+  AVL Search        Result: Not Found Comparisons: 16
+
+Search Key : 760
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 12
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 881
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 18
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 613
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 22
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 398
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 14
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 234
+  Sequential Search Result: Found     Comparisons: 32
+  BST Search        Result: Found     Comparisons: 11
+  AVL Search        Result: Found     Comparisons: 13
+
+Search Key : 839
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 20
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 156
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 20
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 752
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 12
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 288
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 12
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 624
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 22
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 495
+  Sequential Search Result: Found     Comparisons: 27
+  BST Search        Result: Found     Comparisons: 9
+  AVL Search        Result: Found     Comparisons: 13
+
+Search Key : 566
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 22
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 722
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 12
+  AVL Search        Result: Not Found Comparisons: 16
+
+Search Key : 636
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 24
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 885
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 18
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 652
+  Sequential Search Result: Found     Comparisons: 24
+  BST Search        Result: Found     Comparisons: 23
+  AVL Search        Result: Found     Comparisons: 13
+
+Search Key : 489
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 16
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 676
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 24
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 944
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 16
+  AVL Search        Result: Not Found Comparisons: 12
+
+Search Key : 862
+  Sequential Search Result: Found     Comparisons: 72
+  BST Search        Result: Found     Comparisons: 15
+  AVL Search        Result: Found     Comparisons: 11
+
+Search Key : 960
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 14
+  AVL Search        Result: Not Found Comparisons: 12
+
+Search Key : 768
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 10
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 83
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 18
+  AVL Search        Result: Not Found Comparisons: 14
+
+Search Key : 639
+  Sequential Search Result: Not Found Comparisons: 96
+  BST Search        Result: Not Found Comparisons: 24
+  AVL Search        Result: Not Found Comparisons: 14
+
+Searches : 50
+Sequential Search
+  Total comparisons   : 4563
+  Average comparisons : 91.26
+BST Search
+  Total comparisons   : 821
+  Average comparisons : 16.42
+AVL Search
+  Total comparisons   : 683
+  Average comparisons : 13.66
